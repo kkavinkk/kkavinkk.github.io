@@ -1,20 +1,15 @@
 import React from "react";
+import styles from "./Header.module.css";
 
 const Header: React.FC = () => {
   return (
-    <header className="big-blue-600 text-white p-4 shadow-md">
+    <header className={styles.header}>
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-2x1 font-bold">Kavins Website</h1>
-        <nav className="space-x-4">
-          <a href="#about" className="hover:underline">
-            About
-          </a>
-          <a href="#projects" className="hover:underline">
-            Projects
-          </a>
-          <a href="#contact" className="hover:underline">
-            Contact
-          </a>
+        <h1 className={styles.title}>Kavins Website</h1>
+        <nav className={styles.nav}>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
         </nav>
       </div>
     </header>
