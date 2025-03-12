@@ -1,15 +1,24 @@
-import { Container } from "./styles";
-import { BrowserRouter as Router } from "react-router-dom"; // keep UI in sinc with URL
-import { NavHaskLink, HaskLink } from "react-router-hash-link";
-import { useState } from "react"; // Track data or properties from this function
-// import something like resume from assets
+import React from "react";
 
-export function Header() {}
-const [isActive, setActive] = useState(false);
-function toggleTheme() {
-  let html = document.getElementsByTagName("html")[0];
-  html.classList.toggle("light");
-}
-function closeMenu() {
-  setActive(false);
-}
+const Header: React.FC = () => {
+  return (
+    <header className="big-blue-600 text-white p-4 shadow-md">
+      <div className="container mx-auto flex justify-between items-center">
+        <h1 className="text-2x1 font-bold">Kavins Website</h1>
+        <nav className="space-x-4">
+          <a href="#about" className="hover:underline">
+            About
+          </a>
+          <a href="#projects" className="hover:underline">
+            Projects
+          </a>
+          <a href="#contact" className="hover:underline">
+            Contact
+          </a>
+        </nav>
+      </div>
+    </header>
+  );
+};
+
+export default Header;
