@@ -1,5 +1,9 @@
 /* src/components/Header.module.css */
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
     background-color: #4abb8c; /* custom blue */
     color: white;
     padding: 1rem;
@@ -8,12 +12,16 @@
   }
   
   .title {
-    font-size: 1.5rem;
+    border: 3px solid #72AD21;
+    font-size: 3rem;
     font-weight: bold;
   }
   
   .nav {
     display: flex;
     gap: 1rem;
+    position: fixed;
+    top: 30px;
+    right: 30px;
   }
   
