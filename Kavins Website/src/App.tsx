@@ -3,7 +3,7 @@
 //import viteLogo from "/vite.svg";
 import "./App.css";
 //import React from "react";
-import Header from "./components/header";
+import Header from "./components/header/header";
 
 function App() {
   //const [count, setCount] = useState(0);
@@ -15,7 +15,14 @@ function App() {
         <h2 className="text-xl font-semibold">WAGWAM MY G</h2>
         <p>MORE TO COME</p>
       </main>
-      {/* <div>
+    </>
+  );
+}
+
+export default App;
+
+{
+  /* <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -34,9 +41,5 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p> */}
-    </>
-  );
+      </p> */
 }
-
-export default App;
