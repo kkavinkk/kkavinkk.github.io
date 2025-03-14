@@ -3,7 +3,12 @@
 //import viteLogo from "/vite.svg";
 import "./App.css";
 //import React from "react";
-import Header from "./components/header/header";
+import Header from "./components/header";
+import Face from "./components/face";
+import About from "./components/about";
+import Experience from "./components/experience";
+import Projects from "./components/projects";
+import Contact from "./components/contact";
 
 function App() {
   //const [count, setCount] = useState(0);
@@ -11,9 +16,12 @@ function App() {
   return (
     <>
       <Header />
-      <main className="p-4">
-        <h2 className="text-xl font-semibold">WAGWAM MY G</h2>
-        <p>MORE TO COME</p>
+      <main>
+        <Face />
+        <About />
+        <Experience />
+        <Projects />
+        <Contact />
       </main>
     </>
   );
