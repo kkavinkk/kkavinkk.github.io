@@ -3,12 +3,12 @@
 //import viteLogo from "/vite.svg";
 import "./App.css";
 //import React from "react";
-import Header from "./components/header";
-import Face from "./components/face";
-import About from "./components/about";
-import Experience from "./components/experience";
-import Projects from "./components/projects";
-import Contact from "./components/contact";
+import Header from "./components/Header";
+import Face from "./components/Face";
+import About from "./components/About";
+import Experience from "./components/Experience";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 function App() {
   //const [count, setCount] = useState(0);
