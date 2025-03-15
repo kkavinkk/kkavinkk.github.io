@@ -11,18 +11,25 @@ const Header: React.FC = () => {
               Kavin.&nbsp;
             </p>
           </a>
-          {/* <ul className="list-none hidden"></ul> */}
+          <ul className="list-none hidden sm:flex flex-row gap-10 ml-auto mr-6">
+            <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
+              <a href="#about">About</a>
+            </li>
+            <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
+              <a href="#experience">Experience</a>
+            </li>
+            <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
+              <a href="projects">Projects</a>
+            </li>
+            <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
+              <a href="gallery">Gallery</a>
+            </li>
+            <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
+              <a href="contact">Contact</a>
+            </li>
+          </ul>
         </div>
       </nav>
-      {/* <div className="container mx-auto flex justify-between items-center">
-        <h1 className={styles.title}>Kavins Website</h1>
-        <nav className={styles.nav}>
-          <a href="#about">About</a>
-          <a href="#experience">Experience</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </div> */}
     </header>
   );
 };
