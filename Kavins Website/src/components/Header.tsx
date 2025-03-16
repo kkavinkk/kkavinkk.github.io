@@ -1,13 +1,15 @@
 import React from "react";
-import styles from "./Header.module.css";
+import "./Header.css";
 
 const Header: React.FC = () => {
   return (
     <header className="{Header-main}">
       <nav className="{Full-header}">
         <div className="header-text">
-          <a href="#" className="flex items-center gap-2">
-            <p className="Name">Kavin.&nbsp;</p>
+          <a href="#" className="name">
+            <p className="text-2xl font-bold underline cursor-pointer">
+              Kavin.&nbsp;
+            </p>
           </a>
           <ul className="list-header">
             <li className="list-component">

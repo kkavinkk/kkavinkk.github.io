@@ -1,4 +1,5 @@
 /* src/components/Header.module.css */
+@import "tailwindcss";
 
 .header {
     background-color: transparent;
