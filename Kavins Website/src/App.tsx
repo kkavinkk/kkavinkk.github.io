@@ -9,14 +9,25 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import videoBg from "../src/assets/Fighter15s.mp4";
 
 function App() {
   //const [count, setCount] = useState(0);
 
   return (
     <>
-      <Header />
-      <Face />
+      <div className="relative w-full h-screen overflow-hidden">
+        <video
+          autoPlay
+          loop
+          muted
+          className="absolute w-full h-full object-cover"
+        >
+          <source src={videoBg} type="video/mp4" />
+        </video>
+        <Header />
+        <Face />
+      </div>
       <About />
       <Experience />
       <Projects />
