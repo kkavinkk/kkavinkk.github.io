@@ -12,7 +12,7 @@ const About: React.FC = () => {
         <motion.div
           initial={{ opacity: 0, y: 50 }} // Start invisible and slightly below
           whileInView={{ opacity: 1, y: 0 }} // Fade in when in view
-          transition={{ duration: 0.3, ease: "easeOut" }} // Smooth transition
+          transition={{ duration: 0.8, ease: "easeOut" }} // Smooth transition
           viewport={{ once: true }} // Only animate once
           className="flex flex-col items-center text-center"
         >
