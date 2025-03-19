@@ -32,7 +32,7 @@ const About: React.FC = () => {
                   <span className="text-[#2be5c6]"> My name is Kavin</span>. I'm
                   a second year Software Engineering student at the University
                   of Alberta in Edmonton, Canada. I am always committed to
-                  learning new skills and technologies and creating practical
+                  learning new skills and technologies to create practical
                   tools.
                   <br />
                   <br />
