@@ -22,7 +22,7 @@ const About: React.FC = () => {
             </h2>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-5 mt-6">
               <img
-                src="src/assets/kavin.png"
+                src={`${import.meta.env.BASE_URL}kavin.png`}
                 className="w-80 h-auto object-cover rounded-lg border-4 border-white"
                 alt="Image"
               />
