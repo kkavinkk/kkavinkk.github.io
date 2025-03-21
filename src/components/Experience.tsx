@@ -1,4 +1,8 @@
 import React from "react";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
 const Experience: React.FC = () => {
@@ -12,7 +16,18 @@ const Experience: React.FC = () => {
           <p>Experience</p>
         </h2>
       </div>
-      <div className="mt-20 flex flex-col">
+      <div className="experience">
+        <VerticalTimeline lineColor="#000">
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            visible={true}
+          >
+            <h3 className="vertical-timeline-element-title">Sample Title</h3>
+            <p>Description or details go here.</p>
+          </VerticalTimelineElement>
+        </VerticalTimeline>
+      </div>
+      {/* <div className="mt-20 flex flex-col">
         <div className="vertical-timeline vertical-timeline--animate vertical-timeline--two-columns">
           <div id="" className="vertical-timeline-element">
             <span className="vertical-timeline-element-icon bounce-in bg-white cursor-pointer">
@@ -48,7 +63,7 @@ const Experience: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
