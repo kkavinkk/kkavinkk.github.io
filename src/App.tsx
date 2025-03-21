@@ -21,6 +21,8 @@ function App() {
           autoPlay
           loop
           muted
+          playsInline
+          webkit-playsinline
           className="absolute w-full h-full object-cover"
         >
           <source src={videoBg} type="video/mp4" />
