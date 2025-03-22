@@ -19,7 +19,7 @@ const experiences: ExperienceItem[] = [
     date: "Aug 2024 - Present",
     description:
       "•	Sourcing and specking components for the Low Voltage Electronics subsystem, ensuring compliance with Formula SAE(FSAE) regulations.",
-    image: "/public/FSAE.png",
+    image: "/FSAE.png",
     bgColor: "rgb(4, 54, 95)",
   },
   {
@@ -28,7 +28,7 @@ const experiences: ExperienceItem[] = [
     date: "Dec 2022 - Present",
     description:
       "• Frontend Developer and Social Media Manager building a sleek eCommerce website with a focus on UI/UX, responsiveness, and performance, while also managing digital presence and engagement across social platforms.",
-    image: "/public/Apollo.jpg",
+    image: "/Apollo.jpg",
     bgColor: "rgb(4, 54, 95)",
   },
 ];
