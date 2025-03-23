@@ -36,7 +36,7 @@ const experiences: ExperienceItem[] = [
 const Experience: React.FC = () => {
   return (
     <section className="w-full bg-black py-16 px-6 relative">
-      <span className="hach-span" id="work">
+      <span className="hach-span" id="experience">
         &nbsp;
       </span>
 
