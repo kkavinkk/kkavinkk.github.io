@@ -3,8 +3,8 @@ import "./projects.css";
 
 const Projects: React.FC = () => {
   return (
-    <section className="w-full bg-black py-1 px-6 relative">
-      <div className="flex flex-col items-center justify-center">
+    <section className="px-3 py-6 max-w-7xl mx-auto">
+      <div id="projects" className="flex flex-col items-center justify-center">
         <h2 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">
           Projects
         </h2>

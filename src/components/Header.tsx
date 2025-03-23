@@ -19,7 +19,7 @@ const Header: React.FC = () => {
               <a href="#experience">Experience</a>
             </li>
             <li className="text-white hover:text-white text-[18px] font-medium cursor-pointer">
-              <a href="projects">Projects</a>
+              <a href="#projects">Projects</a>
             </li>
             <li className="text-white hover:text-white text-[18px] font-medium cursor-pointer">
               <a href="gallery">Gallery</a>
