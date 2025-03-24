@@ -3,9 +3,9 @@ import "./Header.css";
 
 const Header: React.FC = () => {
   return (
-    <header className="{Header-main}">
-      <nav className="sm:px-16 px-3 w-full  flex items-center py-5 fixed top-0 z-20 bg-transparent">
-        <div className="w-full  flex  justify-between items-center max-w-7x1 mx-auto">
+    <header className="bg-transparent">
+      <nav className="w-full fixed top-0 z-20 bg-transparent">
+        <div className="px-3 py-6 max-w-7xl mx-auto flex justify-between items-center">
           <a href="#" className="flex items-center gap-2">
             <p className="text-white text-[25px] font-bold cursor-pointer flex logo reduce-letter-spacing">
               Kavin.K&nbsp;
@@ -22,10 +22,10 @@ const Header: React.FC = () => {
               <a href="#projects">Projects</a>
             </li>
             <li className="text-white hover:text-white text-[18px] font-medium cursor-pointer">
-              <a href="gallery">Gallery</a>
+              <a href="#gallery">Gallery</a>
             </li>
             <li className="text-white hover:text-white text-[18px] font-medium cursor-pointer">
-              <a href="contact">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>
