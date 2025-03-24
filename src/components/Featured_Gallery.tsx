@@ -2,10 +2,8 @@ import React from "react";
 
 const FeatureGallery: React.FC = () => {
   return (
-    <section className="px-3 py-6 max-w-7xl mx-auto">
-      <span className="hash-span" id="gallery">
-        &nbsp;
-      </span>
+    <section id="gallery" className="px-3 py-6 max-w-7xl mx-auto">
+      <span className="hash-span">&nbsp;</span>
       <div className="transform-none">
         <p className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider text-white">
           More of me
