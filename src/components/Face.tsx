@@ -3,8 +3,8 @@ import React from "react";
 
 const Face: React.FC = () => {
   return (
-    <div className="absolute inset-0 top-[120px] max-w-7x1 mx-auto sm:px-16 px-3 flex flex-row items-start gap-5">
-      <div className="flex flex-col justify-center items-center mt-5">
+    <div className="px-3 py-6 max-w-7xl mx-auto flex mt-10">
+      <div className="flex flex-col justify-center items-center mt-6">
         <div className="w-5 h-5 rounded-full bg-[#2be5c6] drop-shadow-[0_0_10px_#529dff]"></div>
         <div className="w-1 sm:h-86 h-40 bg-[#2be5c6] drop-shadow-[0_0_10px_#529dff]"></div>
       </div>

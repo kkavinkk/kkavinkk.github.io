@@ -73,6 +73,31 @@ const Projects: React.FC = () => {
 
       {/* Project #2: Sensaid */}
       <div className="project-container bg-black">
+        <div className="p-contain-2 text-white">
+          <h2 className="text-4xl font-extrabold dark:text-white">SenseAid</h2>
+          <p>
+            SenseAid is a cue-based sensory therapy software designed to treat
+            patients with sensory-related issues, particularly older adults. It
+            tracks the patient's hand and body movements in real-time, projects
+            them onto the patient's body, and provides visual and audio cues to
+            assist clinicians during sensory exercises.
+          </p>
+          <p>3rd place at natHacks 2024</p>
+          <div className="icon-wrap items-center">
+            <button className="icon-house">
+              <p>Python</p>
+            </button>
+            <button className="icon-house">
+              <p>MediaPipe</p>
+            </button>
+            <button className="icon-house">
+              <p>PyGame</p>
+            </button>
+            <button className="icon-house">
+              <p>NumPy</p>
+            </button>
+          </div>
+        </div>
         <div className="p-contain-1">
           <div className="links-wrap space-x-4">
             <a
@@ -101,31 +126,6 @@ const Projects: React.FC = () => {
                 </button>
               </a>
             </div>
-          </div>
-        </div>
-        <div className="p-contain-2 text-white">
-          <h2 className="text-4xl font-extrabold dark:text-white">SenseAid</h2>
-          <p>
-            SenseAid is a cue-based sensory therapy software designed to treat
-            patients with sensory-related issues, particularly older adults. It
-            tracks the patient's hand and body movements in real-time, projects
-            them onto the patient's body, and provides visual and audio cues to
-            assist clinicians during sensory exercises.
-          </p>
-          <p>3rd place at natHacks 2024</p>
-          <div className="icon-wrap items-center">
-            <button className="icon-house">
-              <p>Python</p>
-            </button>
-            <button className="icon-house">
-              <p>MediaPipe</p>
-            </button>
-            <button className="icon-house">
-              <p>PyGame</p>
-            </button>
-            <button className="icon-house">
-              <p>NumPy</p>
-            </button>
           </div>
         </div>
       </div>
