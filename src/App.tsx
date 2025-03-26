@@ -9,7 +9,9 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import videoBg from "../src/assets/Fighter15s.mp4";
+
+import videoBg from "../src/assets/Night-Drive-4K.mp4";
+import videoFt from "../src/assets/Fighter15s.mp4";
 import FeatureGallery from "./components/Featured_Gallery";
 
 function App() {
@@ -36,7 +38,19 @@ function App() {
         <Experience />
         <Projects />
         <FeatureGallery />
-        <Contact />
+        <div className="relative w-full h-screen overflow-visable">
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            webkit-playsinline
+            className="absolute w-full h-full object-cover"
+          >
+            <source src={videoFt} type="video/mp4" />
+          </video>
+          <Contact />
+        </div>
       </div>
     </>
   );
