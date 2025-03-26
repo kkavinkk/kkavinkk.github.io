@@ -20,7 +20,7 @@ const Header: React.FC = () => {
 
           {/* Hamburger Menu Button (Visible only on small/slim screens) */}
           <button
-            className="text-white focus:outline-none sm:hidden font-bold"
+            className="text-white text-[25px] focus:outline-none sm:hidden"
             onClick={() => setIsOpen(!isOpen)}
           >
             ☰
