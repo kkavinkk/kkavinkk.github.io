@@ -38,14 +38,14 @@ function App() {
         <Experience />
         <Projects />
         <FeatureGallery />
-        <div className="relative w-full h-screen overflow-visable">
+        <div className="relative w-full h-screen overflow-visible">
           <video
             autoPlay
             loop
             muted
             playsInline
             webkit-playsinline
-            className="absolute w-full h-full object-cover"
+            className="absolute w-full h-full"
           >
             <source src={videoFt} type="video/mp4" />
           </video>
