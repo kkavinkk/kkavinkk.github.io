@@ -9,6 +9,7 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 import videoBg from "../src/assets/Night-Drive-4K.mp4";
 import videoFt from "../src/assets/Fighter15s.mp4";
@@ -45,12 +46,14 @@ function App() {
             muted
             playsInline
             webkit-playsinline
-            className="absolute w-full h-full"
+            className="absolute w-full h-full object-cover z-0"
           >
             <source src={videoFt} type="video/mp4" />
           </video>
           <Contact />
         </div>
+
+        <Footer />
       </div>
     </>
   );
