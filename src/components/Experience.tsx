@@ -14,6 +14,15 @@ type ExperienceItem = {
 
 const experiences: ExperienceItem[] = [
   {
+    title: "Software Engineer Intern",
+    company: "TechNerds Solutions",
+    date: "April 2025 - Present",
+    description:
+      "•	Working as a Software Engineering Intern, developing and improving web and mobile applications to deliver efficient, user-friendly digital solutions.",
+    image: "/TechNerds.jpg",
+    bgColor: "rgb(4, 54, 95)",
+  },
+  {
     title: "Low Voltage Design Member",
     company: "UAlbertaFSAE Racing",
     date: "Aug 2024 - Present",
